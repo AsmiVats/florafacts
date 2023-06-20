@@ -1,0 +1,58 @@
+.gradient-background {
+  background: linear-gradient(#146C94, #19A7CE, #AFD3E2, #F6F1F1,#eef195);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.col-10>img{
+  border: none;
+  border-radius: 50%;
+}
+.display-5{
+ 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.col{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 10px;
+  gap: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.carousel{
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border: solid #7ccff5;
+  border-radius: 30px;
+
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
